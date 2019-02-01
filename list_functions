@@ -1,0 +1,11 @@
+myList = ["Mohammad", 1, 3, "Apples"]
+print(myList)
+#adds Mario
+myList[0]="Mario"
+print(myList[len(myList)-1])
+print(len(myList))
+print(myList.index("David"))
+myList.remove("David")
+myList.pop(1)
+myList.append("David")
+myTuple(9,"sven",88, "Luigi")
